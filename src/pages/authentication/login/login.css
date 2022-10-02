@@ -1,0 +1,80 @@
+.login-section{
+  min-height: 100vh;
+  background-color: transparent;
+}
+.login {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    background-color: #fff;
+    margin: 20px 0px;
+    min-height: 585px;
+    border: 1px solid #f1f1f1
+}
+
+.login h2{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.login h3{
+  text-align: center;
+}
+
+.login p{
+  text-align: center;
+  font-size: 14px;
+  color:rgb(107, 104, 104);
+}
+
+.login input[type="text"], .login input[type="password"]{
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  outline: none;
+  border-radius:5px;
+  border: 1px solid grey;
+}
+
+.login button {
+  width: 100%;
+  margin-top: 15px;
+  
+}
+
+.login .outline-btn {
+  width: 100%;
+  margin-top: 120px !important;
+  
+}
+
+.login .flexSB{
+  margin-top: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login .flexSB .flex-item{
+  align-items: center;
+}
+
+.login .flexSB .flex-item label{
+  float: left;
+  margin-left: 12px; 
+}
+
+.login .flexSB .flex-item input[type="checkbox"]{
+  float: left;
+  margin-top: 2.1px;
+}
+
+/*form .flexSB input:nth-child(1) {
+  margin-right: 10px;
+}*/
+
+@media screen and (max-width: 768px) {
+  .login {
+    width: 100%;
+}
+}

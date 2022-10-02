@@ -1,0 +1,53 @@
+.register-section{
+    min-height: 100vh;
+    /*background-color: transparent;*/
+    background-color: #fff;
+  }
+  .register {
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      padding:20px;
+      background-color: #fff;
+      margin: 20px 0px;
+      min-height: 585px;
+      border: 1px solid #f1f1f1
+  }
+  
+  .register h2{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .register h3{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .register p{
+    text-align: center;
+    font-size: 14px;
+    color:rgb(107, 104, 104);
+  }
+
+  .register input{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    outline: none;
+    border-radius:5px;
+    border: 1px solid rgb(228, 222, 222);
+  }
+
+  .register button {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+
+
+  @media screen and (max-width: 768px) {
+   .register {
+      width: 100%;
+  }
+  }
